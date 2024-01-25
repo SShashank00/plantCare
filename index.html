@@ -22,8 +22,8 @@
         text-transform: none;
         letter-spacing: normal;
         line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
+        color: white;
+        background-color: white;
 
       }
     </style>
@@ -59,7 +59,7 @@
           <div class="navbar-nav-content">
             <div class="navbar-nav-links">
               <span class="navbar-link nav-link">Home</span>
-              <span class="navbar-link nav-link"> <a href="https://mediafiles.botpress.cloud/53185d81-9524-4220-8bcb-d6768e211aee/webchat/bot.html">AI Chatbot</a></span>
+              <!-- <span class="navbar-link nav-link"> <a href="https://mediafiles.botpress.cloud/53185d81-9524-4220-8bcb-d6768e211aee/webchat/bot.html">AI Chatbot</a></span> -->
               <span class="nav-link"><a href="404.html">Community</a></span>
               <span class="nav-link">HealthScore</span>
               <!-- <span class="nav-link">Contact</span> -->
@@ -94,7 +94,7 @@
             </div>
             <div class="navbar-nav-links1">
               <span class="navbar-link nav-link">Home</span>
-              <span class="navbar-link nav-link"> <a href="https://mediafiles.botpress.cloud/53185d81-9524-4220-8bcb-d6768e211aee/webchat/bot.html">AI Chatbot</a></span>
+              <!-- <span class="navbar-link nav-link"> <a href="https://mediafiles.botpress.cloud/53185d81-9524-4220-8bcb-d6768e211aee/webchat/bot.html">AI Chatbot</a></span> -->
               <span class="nav-link"><a href="404.html">Community</a></span>
               <span class="nav-link">HealthScore</span>
               <!-- <span class="nav-link">Contact</span> -->
@@ -331,7 +331,7 @@ Have a question? No worries. Our community agri-experts will help you. You can a
                   <span class="home-text22">Get started</span>
                 </div>
                 <div class="home-book-demo button">
-                  <span class="home-text23"><a href="https://mediafiles.botpress.cloud/53185d81-9524-4220-8bcb-d6768e211aee/webchat/bot.html">Let's ask AI</a></span>
+                  <span class="home-text23">Let's ask AI chatbot</span>
                 </div>
               </div>
             </div>
@@ -640,9 +640,53 @@ Have a question? No worries. Our community agri-experts will help you. You can a
                               - Rotates accordion icon 180deg
               */
             </script>
+            <div>
+              <script src="https://cdn.botpress.cloud/webchat/v1/inject.js">  
+              window.botpressWebChat.init({
+                  "composerPlaceholder": "Chat with PlantCare",
+                  "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+                  "botId": "53185d81-9524-4220-8bcb-d6768e211aee",
+                  "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+                  "messagingUrl": "https://messaging.botpress.cloud",
+                  "clientId": "53185d81-9524-4220-8bcb-d6768e211aee",
+                  "webhookId": "a00ea26b-2ebc-4e27-b558-35bfd04eb408",
+                  "lazySocket": true,
+                  "themeName": "prism",
+                  "botName": "PlantCare",
+                  "frontendVersion": "v1",
+                  "useSessionStorage": true,
+                  "enableConversationDeletion": true,
+                  "theme": "prism",
+                  "themeColor": "#2563eb"
+              });
+            </script>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <body>
+      <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+      <script>
+        window.botpressWebChat.init({
+            "composerPlaceholder": "Chat with PlantCare",
+            "botConversationDescription": "Our AI Chatbot – your virtual agriculture companion! 🚀🌾",
+            "botId": "53185d81-9524-4220-8bcb-d6768e211aee",
+            "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+            "messagingUrl": "https://messaging.botpress.cloud",
+            "clientId": "53185d81-9524-4220-8bcb-d6768e211aee",
+            "webhookId": "a00ea26b-2ebc-4e27-b558-35bfd04eb408",
+            "lazySocket": true,
+            "themeName": "prism",
+            "botName": "PlantCare",
+            "stylesheet": "https://webchat-styler-css.botpress.app/prod/7655cfce-edac-488f-8683-9bb0904be7c4/v69891/style.css",
+            "frontendVersion": "v1",
+            "useSessionStorage": true,
+            "enableConversationDeletion": true,
+            "theme": "prism",
+            "themeColor": "#2563eb"
+        });
+      </script>
+</body>
   </body>
 </html>
